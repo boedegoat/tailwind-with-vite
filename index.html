@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="css/tailwind.css" />
     <title>Setup Tailwind CSS with Vite</title>
   </head>
-  <body class="grid place-items-center min-h-screen">
-    <header>
-      <h1 class="text-6xl font-bold mb-5">
+  <body class="grid place-items-center min-h-screen bg-gray-900">
+    <header class="text-center">
+      <h1 class="text-6xl font-bold mb-5 text-gray-100">
         This is
-        <span class="bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">Tailwind CSS</span>
+        <a
+          href="https://tailwindcss.com/"
+          target="_blank"
+          rel="noopener noreferer"
+          class="text-blue-500 bg-clip-text text-transparent italic hover:underline"
+          >tailwind</a
+        >
       </h1>
-      <p class="text-gray-500 text-2xl">Powered with <strong>Vite</strong></p>
+      <p class="text-gray-400 text-xl">
+        Powered with 🌈
+        <a href="https://vitejs.dev/" class="text-yellow-400 font-bold hover:underline" target="_blank" rel="noopener noreferer">Vite.js</a>
+      </p>
     </header>
   </body>
 </html>
