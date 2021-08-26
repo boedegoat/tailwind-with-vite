@@ -26,6 +26,18 @@
     npx tailwindcss init -p
    ```
 
+1. Enable `jit` mode for generating css classes on demand
+
+   ```js
+    // tailwind.config.js
+
+    module.exports = {
+      mode: 'jit',
+      purge: ['./index.html'] // to tell jit where to compile
+      ...
+    }
+   ```
+
 1. create your `main.css` file, then write this
 
    ```css
